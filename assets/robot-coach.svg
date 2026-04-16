@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" fill="none">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="720" y2="400" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#06141f"/>
+        <stop offset="1" stop-color="#0b2b3d"/>
+      </linearGradient>
+      <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+      <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#011018" flood-opacity="0.45"/></filter>
+    </defs>
+    <rect width="720" height="400" rx="28" fill="url(#bg)"/>
+    
+<circle cx="90" cy="90" r="60" fill="#51d8ff" fill-opacity=".15" filter="url(#blur)"/>
+<circle cx="620" cy="90" r="80" fill="#79f0e8" fill-opacity=".12" filter="url(#blur)"/>
+<circle cx="540" cy="320" r="90" fill="#ff9e4a" fill-opacity=".12" filter="url(#blur)"/>
+<path d="M0 260C120 210 180 320 300 280C420 240 470 120 720 220V400H0V260Z" fill="#ffffff" fill-opacity=".04"/>
+
+    
+<g filter="url(#shadow)">
+  <rect x="270" y="78" width="180" height="136" rx="56" fill="#F7FBFF"/>
+  <rect x="296" y="102" width="128" height="88" rx="28" fill="#0D2233"/>
+  <circle cx="335" cy="146" r="10" fill="#79F0E8"/>
+  <circle cx="385" cy="146" r="10" fill="#79F0E8"/>
+  <path d="M330 170C346 184 374 184 390 170" stroke="#51D8FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M288 96L260 70" stroke="#F7FBFF" stroke-width="16" stroke-linecap="round"/>
+  <path d="M432 96L460 70" stroke="#F7FBFF" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="258" cy="68" r="14" fill="#51D8FF"/>
+  <circle cx="462" cy="68" r="14" fill="#51D8FF"/>
+  <rect x="310" y="214" width="100" height="30" rx="15" fill="#51D8FF"/>
+  <path d="M315 242L285 285" stroke="#F7FBFF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M405 242L435 285" stroke="#F7FBFF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M330 244V292" stroke="#F7FBFF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M390 244V292" stroke="#F7FBFF" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="330" cy="304" r="13" fill="#FF9E4A"/>
+  <circle cx="390" cy="304" r="13" fill="#FF9E4A"/>
+</g>
+<g filter="url(#shadow)"><rect x="92" y="136" width="132" height="92" rx="20" fill="#F7FBFF"/><path d="M118 162H198" stroke="#D1ECF6" stroke-width="12" stroke-linecap="round"/><path d="M118 192H176" stroke="#51D8FF" stroke-width="12" stroke-linecap="round"/><rect x="496" y="136" width="132" height="92" rx="20" fill="#F7FBFF"/><path d="M522 162H602" stroke="#D1ECF6" stroke-width="12" stroke-linecap="round"/><path d="M522 192H584" stroke="#FF9E4A" stroke-width="12" stroke-linecap="round"/></g><text x="42" y="54" fill="#F7FBFF" font-size="28" font-family="Arial, sans-serif" font-weight="700">Kebbi Coach</text><text x="42" y="88" fill="#B8D4E8" font-size="16" font-family="Arial, sans-serif">問いかけ、ヒント、復習支援をやさしく案内。</text>
+    </svg>

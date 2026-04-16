@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" fill="none">
+  <defs><linearGradient id="bg" x1="100" y1="60" x2="820" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#081522"/><stop offset="0.55" stop-color="#123049"/><stop offset="1" stop-color="#201F4C"/></linearGradient></defs>
+  <rect width="900" height="640" rx="30" fill="url(#bg)"/>
+  <circle cx="198" cy="140" r="90" fill="#FF9D43" fill-opacity="0.1"/><circle cx="730" cy="120" r="110" fill="#63E8FF" fill-opacity="0.12"/>
+  <rect x="78" y="94" width="744" height="452" rx="28" fill="#0F2238" stroke="#61E8FF" stroke-opacity="0.18"/>
+  <text x="116" y="148" fill="#F4FBFF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Nebula Quiz Mission</text>
+  <text x="116" y="182" fill="#A8C9D7" font-family="Inter, Arial, sans-serif" font-size="22">答えるたびに理解がひらく、宇宙航路型のミニテスト体験</text>
+  <g transform="translate(118 236)">
+    <rect width="300" height="76" rx="22" fill="#132A42" stroke="#5FE7FF" stroke-opacity="0.24"/>
+    <circle cx="42" cy="38" r="14" fill="#5FE7FF"/><text x="74" y="46" fill="#F4FBFF" font-size="22" font-family="Inter, Arial, sans-serif">データの表現</text>
+  </g>
+  <g transform="translate(118 334)">
+    <rect width="300" height="76" rx="22" fill="#132A42" stroke="#FF9D43" stroke-opacity="0.24"/>
+    <circle cx="42" cy="38" r="14" fill="#FF9D43"/><text x="74" y="46" fill="#F4FBFF" font-size="22" font-family="Inter, Arial, sans-serif">アルゴリズム</text>
+  </g>
+  <g transform="translate(118 432)">
+    <rect width="300" height="76" rx="22" fill="#132A42" stroke="#69F0DA" stroke-opacity="0.24"/>
+    <circle cx="42" cy="38" r="14" fill="#69F0DA"/><text x="74" y="46" fill="#F4FBFF" font-size="22" font-family="Inter, Arial, sans-serif">ネットワーク</text>
+  </g>
+  <g transform="translate(564 210)">
+    <ellipse cx="100" cy="246" rx="118" ry="22" fill="#59E5FF" fill-opacity="0.12"/>
+    <rect x="56" y="158" width="88" height="94" rx="28" fill="#EEF7FF"/>
+    <rect x="40" y="54" width="120" height="112" rx="38" fill="#EEF7FF"/>
+    <rect x="58" y="76" width="84" height="56" rx="22" fill="#10243A"/>
+    <circle cx="78" cy="104" r="10" fill="#59E5FF"/><circle cx="122" cy="104" r="10" fill="#59E5FF"/>
+    <path d="M86 126C94 134 106 134 114 126" stroke="#FF9D43" stroke-width="6" stroke-linecap="round"/>
+    <path d="M100 54V24" stroke="#D4ECFB" stroke-width="8" stroke-linecap="round"/><circle cx="100" cy="14" r="12" fill="#5AE8FF"/>
+    <path d="M172 104C232 96 270 118 298 162" stroke="#5FE7FF" stroke-width="4" stroke-dasharray="10 8"/>
+    <circle cx="318" cy="188" r="22" fill="#132A42" stroke="#5FE7FF" stroke-opacity="0.3"/>
+  </g>
+</svg>

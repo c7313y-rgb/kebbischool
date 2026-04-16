@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="100" y1="60" x2="780" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071623"/><stop offset="0.58" stop-color="#11324A"/><stop offset="1" stop-color="#1D214F"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#56DAFF"/><stop offset="1" stop-color="#FFA04A"/></linearGradient>
+  </defs>
+  <rect width="900" height="640" rx="30" fill="url(#g1)"/>
+  <circle cx="760" cy="140" r="84" fill="#5DE8FF" fill-opacity="0.14"/><circle cx="160" cy="120" r="58" fill="#FF9D43" fill-opacity="0.1"/>
+  <rect x="80" y="124" width="520" height="310" rx="26" fill="#0E2135" stroke="#65ECFF" stroke-opacity="0.16"/>
+  <rect x="112" y="156" width="456" height="206" rx="20" fill="#122B44"/>
+  <path d="M128 330C210 242 286 212 364 212C446 212 514 236 548 278" stroke="#58E3FF" stroke-width="5" stroke-dasharray="12 10"/>
+  <circle cx="204" cy="292" r="34" fill="#1A3550" stroke="#56E0FF" stroke-opacity="0.4"/><circle cx="332" cy="248" r="34" fill="#1A3550" stroke="#56E0FF" stroke-opacity="0.4"/><circle cx="464" cy="284" r="34" fill="#1A3550" stroke="#FF9D43" stroke-opacity="0.4"/>
+  <g transform="translate(650 180)">
+    <ellipse cx="76" cy="208" rx="92" ry="18" fill="#55E5FF" fill-opacity="0.14"/>
+    <rect x="38" y="134" width="76" height="86" rx="24" fill="#EEF7FF"/>
+    <rect x="24" y="38" width="104" height="100" rx="34" fill="#EEF7FF"/>
+    <rect x="40" y="58" width="72" height="48" rx="18" fill="#0E2238"/>
+    <circle cx="56" cy="82" r="9" fill="#58E3FF"/><circle cx="96" cy="82" r="9" fill="#58E3FF"/>
+    <path d="M60 100C68 108 84 108 92 100" stroke="#FF9D43" stroke-width="5" stroke-linecap="round"/>
+    <path d="M76 38V12" stroke="#D5ECFB" stroke-width="6" stroke-linecap="round"/><circle cx="76" cy="6" r="10" fill="#59E9FF"/>
+  </g>
+  <rect x="86" y="474" width="728" height="92" rx="22" fill="#0D2237" stroke="#65ECFF" stroke-opacity="0.16"/>
+  <text x="122" y="528" fill="#F4FBFF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Galaxy Classroom</text>
+  <text x="122" y="554" fill="#A8CADA" font-family="Inter, Arial, sans-serif" font-size="22">Kebbiと一緒に、教室そのものを未来の学び空間へ。</text>
+</svg>

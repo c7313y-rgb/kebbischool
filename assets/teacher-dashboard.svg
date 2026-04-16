@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" fill="none">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="720" y2="400" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#06141f"/>
+        <stop offset="1" stop-color="#0b2b3d"/>
+      </linearGradient>
+      <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+      <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#011018" flood-opacity="0.45"/></filter>
+    </defs>
+    <rect width="720" height="400" rx="28" fill="url(#bg)"/>
+    
+<circle cx="90" cy="90" r="60" fill="#51d8ff" fill-opacity=".15" filter="url(#blur)"/>
+<circle cx="620" cy="90" r="80" fill="#79f0e8" fill-opacity=".12" filter="url(#blur)"/>
+<circle cx="540" cy="320" r="90" fill="#ff9e4a" fill-opacity=".12" filter="url(#blur)"/>
+<path d="M0 260C120 210 180 320 300 280C420 240 470 120 720 220V400H0V260Z" fill="#ffffff" fill-opacity=".04"/>
+
+    <g filter="url(#shadow)"><rect x="58" y="70" width="604" height="268" rx="28" fill="#F7FBFF" fill-opacity=".08" stroke="#79F0E8" stroke-opacity=".4"/><rect x="92" y="106" width="164" height="86" rx="22" fill="#F7FBFF"/><rect x="278" y="106" width="164" height="86" rx="22" fill="#F7FBFF"/><rect x="464" y="106" width="164" height="86" rx="22" fill="#F7FBFF"/><rect x="92" y="214" width="352" height="92" rx="22" fill="#0D2233"/><rect x="464" y="214" width="164" height="92" rx="22" fill="#F7FBFF"/><rect x="110" y="130" width="88" height="12" rx="6" fill="#D8EFF8"/><rect x="110" y="152" width="56" height="22" rx="11" fill="#51D8FF"/><rect x="296" y="130" width="88" height="12" rx="6" fill="#D8EFF8"/><rect x="296" y="152" width="80" height="22" rx="11" fill="#FF9E4A"/><rect x="482" y="130" width="88" height="12" rx="6" fill="#D8EFF8"/><rect x="482" y="152" width="72" height="22" rx="11" fill="#79F0E8"/><path d="M116 278L166 256L218 268L272 238L324 250L386 224" stroke="#79F0E8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="166" cy="256" r="7" fill="#FF9E4A"/><circle cx="272" cy="238" r="7" fill="#FF9E4A"/><circle cx="386" cy="224" r="7" fill="#FF9E4A"/><rect x="484" y="238" width="118" height="14" rx="7" fill="#D8EFF8"/><rect x="484" y="262" width="92" height="14" rx="7" fill="#D8EFF8"/><rect x="484" y="286" width="56" height="14" rx="7" fill="#D8EFF8"/></g><text x="56" y="52" fill="#F7FBFF" font-size="28" font-family="Arial, sans-serif" font-weight="700">Teacher Mission Control</text>
+    </svg>

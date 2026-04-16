@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="140" y1="120" x2="1420" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061421"/>
+      <stop offset="0.55" stop-color="#0B2C3E"/>
+      <stop offset="1" stop-color="#151D46"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 300) rotate(90) scale(280 280)">
+      <stop stop-color="#6AF7FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6AF7FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="robotBody" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#C5E3F9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#53D9FF"/>
+      <stop offset="1" stop-color="#FF9D43"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <rect x="60" y="60" width="1480" height="780" rx="28" stroke="rgba(255,255,255,.14)" stroke="#8EF7FF" stroke-opacity="0.18"/>
+  <circle cx="1080" cy="300" r="280" fill="url(#halo)"/>
+  <circle cx="240" cy="160" r="3" fill="#fff"/><circle cx="320" cy="240" r="2" fill="#fff"/><circle cx="480" cy="110" r="2" fill="#fff"/>
+  <circle cx="1310" cy="160" r="4" fill="#fff"/><circle cx="1420" cy="300" r="3" fill="#fff"/><circle cx="1280" cy="510" r="2" fill="#fff"/>
+  <path d="M120 720C340 560 520 540 710 620C880 690 1010 710 1180 650C1300 608 1404 560 1490 540" stroke="#5FE6FF" stroke-opacity="0.28" stroke-width="3" stroke-dasharray="14 12"/>
+  <g transform="translate(920 180)">
+    <ellipse cx="140" cy="470" rx="178" ry="32" fill="#57E6FF" fill-opacity="0.14"/>
+    <rect x="74" y="300" width="132" height="156" rx="38" fill="url(#robotBody)"/>
+    <rect x="52" y="126" width="176" height="168" rx="56" fill="url(#robotBody)"/>
+    <rect x="78" y="152" width="124" height="90" rx="28" fill="#0F2238"/>
+    <circle cx="102" cy="196" r="15" fill="#58E3FF" filter="url(#glow)"/>
+    <circle cx="178" cy="196" r="15" fill="#58E3FF" filter="url(#glow)"/>
+    <path d="M112 232C129 246 151 246 168 232" stroke="#FF9D43" stroke-width="8" stroke-linecap="round"/>
+    <rect x="118" y="78" width="44" height="26" rx="13" fill="#EEF7FF"/>
+    <path d="M140 78V40" stroke="#C8E8F9" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="140" cy="30" r="14" fill="#59E9FF"/>
+    <rect x="26" y="168" width="30" height="84" rx="15" fill="#D8ECF9"/>
+    <rect x="224" y="168" width="30" height="84" rx="15" fill="#D8ECF9"/>
+    <rect x="90" y="454" width="26" height="74" rx="13" fill="#D8ECF9"/>
+    <rect x="164" y="454" width="26" height="74" rx="13" fill="#D8ECF9"/>
+    <circle cx="40" cy="168" r="32" fill="#0F2439" stroke="#5BE6FF" stroke-opacity="0.45"/>
+    <circle cx="240" cy="168" r="32" fill="#0F2439" stroke="#FF9D43" stroke-opacity="0.45"/>
+    <path d="M-14 168H-86" stroke="#5BE6FF" stroke-opacity="0.42" stroke-width="3" stroke-dasharray="8 10"/>
+    <path d="M294 168H366" stroke="#FF9D43" stroke-opacity="0.42" stroke-width="3" stroke-dasharray="8 10"/>
+  </g>
+  <g transform="translate(132 180)">
+    <rect x="0" y="0" width="520" height="336" rx="28" fill="#0F2238" fill-opacity="0.88" stroke="#66F0FF" stroke-opacity="0.2"/>
+    <text x="34" y="72" fill="#F4FBFF" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Kebbi × 情報ラボ</text>
+    <text x="34" y="126" fill="#9FC6D7" font-family="Inter, Arial, sans-serif" font-size="28">宇宙に飛び出すようなワクワクと、</text>
+    <text x="34" y="164" fill="#9FC6D7" font-family="Inter, Arial, sans-serif" font-size="28">対話で深まる情報Ⅰの学び。</text>
+    <g transform="translate(34 220)">
+      <rect width="130" height="68" rx="20" fill="#122D43" stroke="#5DE6FF" stroke-opacity="0.22"/>
+      <text x="24" y="28" fill="#67F1FF" font-size="18" font-family="Inter, Arial, sans-serif">24 lessons</text>
+      <text x="24" y="52" fill="#F4FBFF" font-size="22" font-weight="700" font-family="Inter, Arial, sans-serif">Mission Track</text>
+    </g>
+    <g transform="translate(188 220)">
+      <rect width="130" height="68" rx="20" fill="#122D43" stroke="#FF9D43" stroke-opacity="0.22"/>
+      <text x="24" y="28" fill="#FFB469" font-size="18" font-family="Inter, Arial, sans-serif">Quiz + Review</text>
+      <text x="24" y="52" fill="#F4FBFF" font-size="22" font-weight="700" font-family="Inter, Arial, sans-serif">Active Learn</text>
+    </g>
+    <g transform="translate(342 220)">
+      <rect width="130" height="68" rx="20" fill="#122D43" stroke="#8FF7FF" stroke-opacity="0.22"/>
+      <text x="24" y="28" fill="#9CF6FF" font-size="18" font-family="Inter, Arial, sans-serif">Teacher View</text>
+      <text x="24" y="52" fill="#F4FBFF" font-size="22" font-weight="700" font-family="Inter, Arial, sans-serif">Insight Board</text>
+    </g>
+  </g>
+</svg>
